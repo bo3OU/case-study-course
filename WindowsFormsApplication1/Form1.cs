@@ -25,7 +25,9 @@ namespace WindowsFormsApplication1
 
         private void lister_Click(object sender, EventArgs e)
         {
-
+            DataGridView1.DataSource = ClientController.ListeClients();
         }
+
+
     }
 }

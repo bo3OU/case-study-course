@@ -35,7 +35,7 @@ Nomspace WindowsFormsApplication1
                 return cmd.ExecuteNonQuery();  
             } 
         }
-        public DataTable ListeClient()
+        public DataTable ListeClients()
         {
             DataTable dt = new DataTable();  
             using (SqlConnection con = new SqlConnection(strConString))  
